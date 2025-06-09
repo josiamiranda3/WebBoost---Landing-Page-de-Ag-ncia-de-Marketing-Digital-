@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebBoost - Agência de Marketing Digital com a Energia da Bahia</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>WebBoost</h1>
+      <nav>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video autoplay loop muted playsinline poster="imagem-de-fundo-fallback.jpg" id="hero-video">
+        <source src="Vídeo_Introdutório_WebBoost_Gerado.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+      </video>
+    
+      <div class="container">
+        <h2 id="typewriter"></h2>
+        <p>Estratégias digitais inteligentes que conectam sua marca ao mundo.</p>
+        <a href="#contato" class="btn">Solicite uma Consultoria Gratuita</a>
+      </div>
+    </section>
+
+    <section id="servicos" class="section servicos">
+      <div class="container">
+        <h3>O que Oferecemos</h3>
+        <div class="grid">
+          
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h4>SEO Otimizado</h4>
+                <p>Colocamos seu site no topo das buscas do Google.</p>
+              </div>
+              <div class="flip-card-back">
+                <h4>Alcance o Topo</h4>
+                <p>Análise completa e otimização para máxima visibilidade.</p>
+                <a href="#contato" class="btn">Quero Saber Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h4>Gestão de Redes Sociais</h4>
+                <p>Criamos conexões reais com seu público.</p>
+              </div>
+              <div class="flip-card-back">
+                <h4>Engaje e Converta</h4>
+                <p>Conteúdo estratégico que gera engajamento e resultados.</p>
+                <a href="#contato" class="btn">Quero Saber Mais</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h4>Tráfego Pago (Ads)</h4>
+                <p>Anúncios que trazem clientes, não apenas cliques.</p>
+              </div>
+              <div class="flip-card-back">
+                <h4>Invista com Inteligência</h4>
+                <p>Campanhas otimizadas para o maior retorno sobre o investimento.</p>
+                <a href="#contato" class="btn">Quero Saber Mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="section depoimentos">
+      <div class="container">
+        <h3>O que Dizem Nossos Clientes</h3>
+        <div class="slider">
+          <div class="slide active">"A WebBoost transformou nossa presença online. Aumentamos em 3x nossos leads!"</div>
+          <div class="slide">"Equipe atenciosa e um resultado incrível em poucos meses. Recomendo de olhos fechados!"</div>
+          <div class="slide">"Finalmente encontramos uma agência que entrega o que promete. Parceiros de verdade!"</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contato">
+      <div class="container">
+        <h3>Fale Conosco</h3>
+        <form id="form">
+          <input type="text" id="nome" placeholder="Seu nome completo" required>
+          <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+          <textarea id="mensagem" rows="6" placeholder="Como podemos ajudar seu negócio?" required></textarea>
+          <button type="submit" class="btn">Enviar Mensagem</button>
+          <p id="form-msg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 WebBoost - Conectando a Bahia com o Mundo Digital. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
